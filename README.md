@@ -1,4 +1,4 @@
-# geo-p: Geospatial Data Preprocessing Toolbox
+# Geospatial Data Preprocessing Toolbox ( geo-p )
 
 ### A pipeline solution for preparing geospatial data for Machine Learning.
 
