@@ -88,6 +88,6 @@ for year_dir in os.listdir(cropped_rasters_dir):
                     shape_path = os.path.join(labels_dir, cell, raster_id+".shp")
                     train_df = gpd.read_file(shape_path)
                     current_out_dir = os.path.join(output_dir, year_dir, month_dir)
-                    out_path = os.path.join(current_out_dir, cell, raster_id.replace(".shp", ".tif"))
+                    out_path = os.path.join(current_out_dir, cell, raster_id+".tif")
                     perform_masking(src, train_df, out_path)
                     print(year_dir, month_dir, cell, raster_id)
